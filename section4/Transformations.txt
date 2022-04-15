@@ -8,7 +8,7 @@ scaleY(3) => Y축으로 크기를 3배 증가
 translateX(10px) => X축으로 10px 이동
 translateY(-10px) => Y축으로 -10px 이동
 다른 요소의 box를 변형시키지 않고 원하는 요소를 이동시키기 위해서 사용
-
+ 
 margin, padding이 적용되지 않음. 일종의 3D transformation임. 픽셀을 변형
 
 margin, padding을 위해서 translateX, translateY를 사용하지 않는다.
