@@ -1,0 +1,10 @@
+1. git desktop 설치
+2. git hub 회원가입 및 repo 생성
+3. 생성 할 때 public으로 생성하고 이름은 소문자로 
+4. README.md 체크 ㄴㄴ
+5. github desktop 연결
+6. clone repository -> Desktop으로 경로 변경 후 2번에서 만든 repo설정
+7. vscode로 작업할 폴더 실행 및 진행
+8. git desktop에서 수정사항 확인
+9. !!체크완료 후 commit message 쓰고 commit하기!!
+10. 푸쉬!
