@@ -1,0 +1,36 @@
+button 작성 및 
+상태별 속성적용
+
+button:acitve
+=> 마우스로 버튼을 클릭 후 떼기 전 까지의 상태
+
+button:hover
+=> 마우스 커서가 대상 위에 있을 때
+
+button:focus
+=> active처럼 클릭했을 때 비슷하지만, 키보드로 선택되었을 때를 말함
+
+a:visited 
+=> 링크를 눌렀을 때 설정 할 옵션
+
+focus-within은 focused인 자식을 가진 
+부모 엘리먼트의 상태를 말함 (부모 엘리먼트에 적용)
+
+
+
+
+변수 
+
+:root 
+
+기본적으로, 모든 Document의 뿌리가 된다.
+
+:root {
+--main-color : blue;
+--default-border : 1px solid var(--main-color);
+}
+
+p {
+background-color : var(--main-color);
+border : var(--default-border);
+}

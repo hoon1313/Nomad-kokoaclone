@@ -1,0 +1,28 @@
+position 
+
+레이아웃보다는 위치를 아주 조금씩 옮길 때 사용
+
+position:fixed 
+
+큰 화면에서 스크롤을 내려도 그 위치에 계속 고정되어 있음
+
+크롬광고창 스크롤 내리면 따라오는거 생각
+
+position:static (default)
+
+레이아웃이 박스를 처음 위치하는 곳에 두는 것
+
+position:relative
+
+ex)
+top : -10px; 
+left : -10px;
+조금씩 좌,우로 움직일때 유용
+
+position:absolute
+
+body의 맨 위 오른쪽 아래 왼쪽으로 움직인다.
+
+가장 가까운 relative 부모를 기준으로 이동시켜준다.
+
+relative한 개체가 없으면 body를 기준으로 움직임

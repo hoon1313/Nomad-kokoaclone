@@ -1,0 +1,45 @@
+Media query
+코드의 조건을 추가할 수 있는 방법
+@media screen ~~~ { 의 조건이 참이라면 
+{아래의 css 를 실행}
+}
+
+css만을 이용해서 스크린의 사이즈를 알 수 있는 방법
+내 웹사이트를 보고 있는 사용자의 스크린 사이즈
+
+
+        body {
+            display: flex;
+            height: 1000vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        div {
+            background-color: teal;
+            width: 200px;
+            height: 200px;
+        }
+        @media screen and (min-width : 710px) and (max-width: 1200px) and (orientation : landscape) {
+            div {
+                background-color: wheat;
+            }
+        }
+==> 미디어 스크린이 최소 710px ~ 최대 1200px 이고 가로모드 상태일 때 background-color을 wheat 로 변경
+orientation : landscape ==> 가로모드
+orientation : portrait ==> 세로모드
+
+
+
+        span {
+            font-size: 36px;
+        }
+
+        @media screen and (orientation : landscape) {
+            span {
+                display: none;
+            }
+        }
+
+==> 미디어 스크린이 세로모드일 때 span의 display를 없앰

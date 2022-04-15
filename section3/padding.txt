@@ -1,0 +1,7 @@
+margin은 box의 경계로부터 "바깥쪽"에 있는 공간
+
+padding은 box의 경계로부터 "안쪽"에 있는 공간
+
+Inline요소는 높이와 너비를 가질 수 없기 때문에 margin값을 가질 수 없다
+
+padding은 사방으로 가능 

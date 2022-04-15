@@ -1,0 +1,22 @@
+Transition이란 어떤 상태에서 다른 상태로의 "변화"를 애니메이션으로 만드는 방법
+
+css에 transition상태를 주려면 변환하지 않은 상태의 태그에 옵션을 적용시켜야 한다.
+
+state에 따라 바뀌는 property를 가지고 있으면 사용되는 것.
+
+transition : background-color 1s ease-in-out, color 0.5s ease-in-out 
+==> 배경색을 1초에 걸쳐서 느->빠->느리게 끝나는 효과
+==> 글자색을 0.5초에 걸쳐 느->빠->느리게 끝나는 효과
+
+transition : all 1s ease-in-out 
+==> 배경색과 글자색 둘 다 1초에 걸쳐서 느->빠->느 효과
+
+ease-in function
+브라우저에게 애니메이션이 어떻게 변할지 말해주는 것
+
+linear 일정한 속도로 움직이게 해줌
+ease-in 속도가 점점 빨라짐
+ease-out 속도가 점점 느려짐
+ease-in-out 점점 빨라졌다 느려짐  
+
+

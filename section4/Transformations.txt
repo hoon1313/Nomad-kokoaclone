@@ -1,0 +1,18 @@
+rotateY(10deg) => 3D로 Y축을 기준으로 10deg 회전
+rotateX(15deg) => 3D로 X축을 기준으로 15deg 회전
+rotateZ(20deg) => 3D로 Z축을 기준으로 20deg 회전
+
+scaleX(2) => X축으로 크기를 2배 증가
+scaleY(3) => Y축으로 크기를 3배 증가
+
+translateX(10px) => X축으로 10px 이동
+translateY(-10px) => Y축으로 -10px 이동
+다른 요소의 box를 변형시키지 않고 원하는 요소를 이동시키기 위해서 사용
+
+margin, padding이 적용되지 않음. 일종의 3D transformation임. 픽셀을 변형
+
+margin, padding을 위해서 translateX, translateY를 사용하지 않는다.
+
+translation은 다른 픽셀을 기준으로 움직이기 때문에 다른 span같은 태그들은 인지하지 못한다.
+
+

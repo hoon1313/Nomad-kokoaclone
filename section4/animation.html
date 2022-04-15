@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes CoinFlip {
+            0% {
+                transform: rotateY(0deg);
+            }
+
+            50% {
+                transform: rotateY(180deg) translateY(10px);
+            }
+
+            100% {
+                transform: rotateY(0deg);
+            }
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 50%;
+            animation: CoinFlip 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="/img/coin.jpg" />
+</body>
+
+</html>

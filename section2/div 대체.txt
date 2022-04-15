@@ -1,0 +1,26 @@
+semanitc tags
+
+div를 대체하는 태그들
+[header]
+
+header != head
+
+header는 body태그 안에 존재
+
+header = website의 헤더(상단)에 존재하는 것 
+
+div를 대체할 수 있는 태그들은 보기만해도 의미를 짐작할 수 있다.
+
+
+[main] 
+div id="main"이라고 사용해도 문제는 없지만 
+그냥 main태그를 사용하는게 좋다
+website의 main을 작성할 때 사용
+
+[footer]
+
+꼬릿말을 위한 태그
+&copy; 2022 N.C
+
+
+[span]  <  [p] 텍스트의 길이  

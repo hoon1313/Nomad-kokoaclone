@@ -1,0 +1,37 @@
+Pseudo Selector 란 
+
+좀 더 세부적으로 엘리먼트를 선택해주는 것
+
+현재 배운 것 
+body 태그이름
+.green 클래스 이름 
+#green  ID 이름
+
+div:last-child >> div중 마지막 div를 선택
+
+div:first-child >> div중 첫 번째 자식div를 선택
+
+???:nth-child(n) >> ???중 n번 째 자식을 선택
+
+???:nth-child(even)  ==  [2n] >> ???중 짝 수번째 자식들을 선택 
+
+???:nth-child(odd)  == [2n+1]>> ???중 홀 수 번째 자식들을 선택
+
+ 
+div span {color : white;} == div 태그 안에 있는 모든 span태그에 color:white 적용
+
+div > span {color : white;} == div의 바로 밑 자식(direct children)에서 span을 찾아 color:white 적용
+
+p + span {color : white;} == p 다음으로 오는 span에 color:white 속성 적용
+
+p ~ span {color : white;} == span이 p의 형제이나 바로 뒤에 오지 않을 때 사용
+
+input에서 
+input type="password" required가 있을 때,
+css에서 input:required 로 선택할 수 있다.
+
+input에서 
+placeholder에 name이라는 단어가 여러개 있을 때,
+css에서 input[placeholder~="name"] 으로 name이 있는 input 전체 선택 가능
+
+

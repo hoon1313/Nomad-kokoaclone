@@ -1,0 +1,54 @@
+html 뼈대
+css 근육
+js 뇌
+
+content, 구조 파악
+html은 태그로 만들어짐
+
+원하는 태그를 맘대로 지을수 있음
+
+태그는 <태그>로 시작해서 </태그>로 끝난다.
+
+태그 사이에 있는 것이 content라고 함
+ 
+태그 안에 다른 태그를 끼울 수 있다.
+
+attribute가 없는 태그는 강력하지 않다.
+
+<tagname attributeName="value">lalaala</tagname>
+
+attribute값을 사용할때는 항상 " "를 사용해야한다.
+
+어느 태그나 ID값을 가질 수 있다.
+
+type = input,form
+
+src = img
+
+semantic태그들은 태그 자체만으로 이해 할 수 있는 것
+
+- inline속성은 은 높이와 너비를 가질 수 없음
+
+그래서  div에 높이와 너비를 설정하고 display : inline을 주면 사라짐
+
+<div>a</div> 를 주면 a가 나옴
+
+
+- box 는 3가지 속성 있음
+
+padding
+border 
+margin : box의 border의 바깥에 있는 공간
+margin : 1px(상) 2px(우) 3px(하) 4px(좌) 방향 = 시계방향
+
+
+- collapsing margins 현상은 흰 box의 경계가 보라색 box의 경계와 같을 때 일어남
+두 box의 margin은 하나가 된다 [경계가 서로 만나면 위 아래로만 일어나는 현상]
+
+margin은 box의 경계로부터 "바깥쪽"에 있는 공간
+
+padding은 box의 경계로부터 "안쪽"에 있는 공간
+
+Inline요소는 높이와 너비를 가질 수 없기 때문에 margin값을 가질 수 없다
+
+padding은 사방으로 가능

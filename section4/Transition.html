@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <title>Document</title>
+    <style>
+        @keyframes CoinFlip {
+
+            from {
+                transform: rotateY(0);
+            }
+
+            to {
+                transform: rotateY(360);
+            }
+        }
+
+        a {
+            color: wheat;
+            background-color: tomato;
+            text-decoration: none;
+            padding: 3px 5px;
+            border-radius: 5px;
+            font-size: 55px;
+            transition: all 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+        }
+
+        a:hover {
+            border-radius: 25px;
+            color: tomato;
+            background-color: wheat;
+        }
+
+        img {
+
+            border: 1px solid black;
+            border-radius: 50%;
+            transition: all 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">Go Home</a>
+    <img src="/img/logo.jpg" />
+</body>
+
+</html>
