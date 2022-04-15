@@ -1,3 +1,3 @@
 # Kokoa Clone NomadCoder
 
-wow
+HTML & CSS are so much fun!
