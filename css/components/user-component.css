@@ -1,0 +1,35 @@
+.user-component,
+.user-component__column:first-child{
+    display:flex;
+    align-items: center;
+    position: relative;
+    top:80px;
+
+
+}
+.user-component__image{
+    
+    width:70px;
+    height: 70px;
+    border-radius: 40%;
+    margin-right : 20px;
+    
+    
+    /* user-component__image를 레이어의 맨 뒤로 놓음 */
+    z-index: -1;
+}
+
+.user-component__title{
+    font-weight: 600;
+    font-size: 22px;
+}
+.user-component__subtitle{
+    margin-top : 8px;
+    color : rgba(0,0,0,0.6);
+    font-size : 17px;
+}
+
+.user-component__image--xl {
+    width: 80px;
+    height: 80px;
+}

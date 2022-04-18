@@ -21,8 +21,9 @@ left : -10px;
 
 position:absolute
 
-body의 맨 위 오른쪽 아래 왼쪽으로 움직인다.
-
-가장 가까운 relative 부모를 기준으로 이동시켜준다.
+***가장 가까운 relative 부모를 기준으로 이동시켜준다.***
 
 relative한 개체가 없으면 body를 기준으로 움직임
+
+body의 맨 위 오른쪽 아래 왼쪽으로 움직인다.
+
