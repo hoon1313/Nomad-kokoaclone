@@ -21,26 +21,13 @@
 
 .nav__notification{
     
-    background-color: tomato;
-    width: 25px;
-    height: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    color:white;
-    border-radius: 50%;
+  
     /* Section 3 - position.txt 참고! */
     position: absolute;
     left: 20px;
     bottom:17px;
 }
 .nav-ellipsis__notification{
-    background-color: tomato;
-    width: 6px;
-    height: 6px;
-    display: flex;
-    border-radius: 50%;
     position: absolute;
     right: -5px;
     top : -15px;
